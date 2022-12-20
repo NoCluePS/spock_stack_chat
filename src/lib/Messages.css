@@ -1,0 +1,38 @@
+.msg {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 16px;
+}
+
+.msg-text {
+    margin: 0;
+}
+
+.msg-container {
+    display: flex;
+    flex-flow: column;
+    align-items: flex-start;
+}
+
+.avatar {
+    background-color: gray;
+    border-radius: 25%;
+}
+
+.send-msg-form {
+    display: flex;
+
+}
+
+.container {
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    flex: 1;
+}
+
+.send-msg-form input {
+    flex: 1;
+    outline: none;
+}
